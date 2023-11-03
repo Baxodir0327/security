@@ -30,8 +30,8 @@ public class JwtTokenUtil {
 
     public boolean isValid(@NonNull String token) {
         try {
-            Claims claims = getClaims(token);
-            return claims.getExpiration().after(new Date());
+            getClaims(token);
+            return true;
         } catch (ExpiredJwtException | IllegalArgumentException | SignatureException | MalformedJwtException |
                  UnsupportedJwtException e) {
             e.printStackTrace();
