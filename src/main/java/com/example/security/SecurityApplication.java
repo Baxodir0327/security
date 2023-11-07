@@ -16,17 +16,6 @@ import java.util.TimerTask;
 public class SecurityApplication {
 
     public static void main(String[] args) {
-        /*Timer timer = new Timer();
-        TimerTask task = new TimerTask() {
-            private SimpleDateFormat sdf=new SimpleDateFormat("HH:mm:ss");
-            @Override
-            public void run() {
-                System.out.print("\r"+"Time is "+sdf.format(new Date()));
-            }
-        };
-
-        timer.scheduleAtFixedRate(task, 4, 1);*/
-
         SpringApplication.run(SecurityApplication.class, args);
     }
 
