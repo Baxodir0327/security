@@ -32,20 +32,6 @@ public class MailSenderController {
         return "Message Sent !!!";
     }
 
-    @PostMapping("/attachment-mail")
-    public String sendAttachmentMail(@RequestParam String username) {
-        return "Message Sent !!!";
-    }
 
-    @PostMapping("/image-mail")
-    public String sendImageMail(@RequestParam String username) {
-        return "Message Sent !!!";
-    }
-
-    @PostMapping("/freemarker-mail")
-    public String sendFreeMarkerMail(@RequestParam String username) {
-
-        return "Message Sent !!!";
-    }
 
 }
