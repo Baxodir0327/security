@@ -1,0 +1,14 @@
+spring:
+  mail:
+    host: 'sandbox.smtp.mailtrap.io'
+    port:  587
+    username: d5af3f24f27566
+    password: 16c94d9224426f
+    properties:
+      smtp:
+        auth: true
+        starttls:
+          enable: true
+
+  freemarker:
+    template-loader-path: 'classpath:/templates'
